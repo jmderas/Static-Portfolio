@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Joey's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Playfair+Display:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    
+            
+    
+    
 </head>
 
 <body>
-    <header>
-            <img src="https://i.imgur.com/JGQwviD.jpg?2" alt="Avatar" class="avatar">
-            <h1 class="name">Joey Deras</h1>
-            <h3 class="title">DMV Web Developer</h3>
- 
-    </header>
-
-    <main>
-        <p>Welcome to my portfolio! </p>
-    </main>
-
-    <footer class="foot">
+  <main>
+      <div id="particles-js"> 
+          <header>
             <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">BIO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="https://pages.git.generalassemb.ly/jmderas/Project1-Towers-Of-Hanoi/">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Contact</a>
-                    </li>
-                  </ul>
-    </footer>
-
-</body>
-
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#second-row" style="color: white;">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#third-row" style="color: white;">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Contact</a>
+              </li>
+            </ul>
+          </header>
+    <div class="intro-box">
+      <div id="particles-js"> 
+          <div class="col-md-8 text-md-center" >
+              <div class="card-body">
+                <h1 class="card-title">Full-Stack Software Engineer</h1>
+                <p class="card-text"><span style="color: red ;">As a </span>full stack web developer,
+                   <span style="color:blue;"> find creative</span> <span style="color:red;">solutions for</span> <span style="color:">ordinary problems.</span> <span style="color:blue;">I breakdown</span> <span style="color:red;">the complex by getting</span><span style="color:;"> to the root of every</span> <span style="color:blue;">issue</span> <span style="color:red;">and then begin to build out</span> <span style="color:;"> clean and creative </span><span style="color:red;">applications</span></p>
+                   <!-- <p class="bio-area">Full-Stack Software Engineer based out of the D.M.V area.</p> -->
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+</main>
+<Projects id="second-row">
+  <div class="holderOne">
+<h1 class="titleOne">PROJECTS</h1>
+  <div class="project-imgs">
+    <a href="https://jmderas.github.io/towers-of-hanoi/"><img src="/images/Screen Shot 2019-05-14 at 1.19.32 PM.png"></a>
+    <a href="https://pot-hole-app.herokuapp.com/"><img src="/images/Screen Shot 2019-05-14 at 2.19.53 PM.png"></a>
+    <a href="https://robo-hr.herokuapp.com/"><img src="/images/Screen Shot 2019-05-14 at 2.35.41 PM.png"></a>
+  </div>
+</div>
+</Projects>
+<Resume id="third-row">
+  <div class="holderTwo">
+    <h1 class="titleTwo">Resume</h1>
+<!-- pdf -->
+    <div id="pdf">
+      <embed src="/images/resume.png" width="300px" height="400px transition: transform .2s;"/>
+    </div>
+  
+  <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(/images/html-1.png);"></div>
+        <div class="swiper-slide" style="background-image:url(/images/css1.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/js-logo.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/python-logo.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/nodejs.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/mongodb.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/postgresql.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/django.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/react.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/images/github.png)"></div>
+      </div>
+    <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div> 
+  </div> 
+</Resume>
+</body> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script> 
 </html>
